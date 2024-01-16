@@ -1,0 +1,4 @@
+Displaying operating system info
+Operating System Name  :  Майкрософт Windows 10 Pro для образовательных учреждений
+Operating System Architecture  :  64-разрядная
+Processor : Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz

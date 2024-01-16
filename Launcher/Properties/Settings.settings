@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Launcher.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AutoUpdate" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ArchiveUpdate" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Version" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="VersionServerPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://drive.google.com/uc?export=download&amp;id=1kN0i9akJJHIGmV1s2mH-Nt_o5Cm0YnTS</Value>
+    </Setting>
+    <Setting Name="UpdateServerPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://drive.google.com/uc?export=download&amp;id=1AmMd2EgmPVQzcIes6uPlieWm6OgUQJfe</Value>
+    </Setting>
+    <Setting Name="ChooseServer" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LoadMachineData" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PathToExe" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\Dmitrii\Desktop\Launcher\Launcher\bin\Debug\net7.0-windows\update\net7.0-windows\Practica.exe</Value>
+    </Setting>
+    <Setting Name="DescServerPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://drive.google.com/uc?export=download&amp;id=1yO8xBlb6ThIbtsPPPvD5jXgaq1UxqxKa</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

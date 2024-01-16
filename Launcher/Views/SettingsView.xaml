@@ -1,0 +1,36 @@
+﻿<Page x:Class="Launcher.Views.SettingsView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Launcher.Views"
+      xmlns:properties="clr-namespace:Launcher.Properties"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SettingsView">
+
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <CheckBox Content="Автоматическая проверка обновлений" 
+                      IsChecked="{Binding Source = {x:Static properties:Settings.Default}, Path=AutoUpdate}" 
+                      Margin="5" 
+                      x:Name="AutoCheck"
+                      Checked="AutoCheck_Checked"
+                      Unchecked="AutoCheck_Checked"/>
+            <CheckBox Content="Архивировать обновления" 
+                      IsChecked="{Binding Source = {x:Static properties:Settings.Default}, Path=ArchiveUpdate}"
+                      Margin="5"
+                      x:Name="ArchiveCheck"
+                      Checked="ArchiveCheck_Checked"
+                      Unchecked="ArchiveCheck_Checked"/>
+            <ComboBox x:Name="VersionBox" SelectionChanged="VersionBox_SelectionChanged">
+                <ComboBoxItem Content="Основной сервер" x:Name="MainServer"/>
+                <ComboBoxItem Content="Запасной сервер" x:Name="DopServer"/>
+            </ComboBox>
+            <Button x:Name="RollbackButton"
+                    Content="Откатить обновление"
+                    Click="RollbackButton_Click"
+                    Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Page>
